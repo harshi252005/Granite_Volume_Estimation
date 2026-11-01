@@ -1,0 +1,13 @@
+{
+  "appId": "com.smartgranite.app",
+  "appName": "Smart Granite",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

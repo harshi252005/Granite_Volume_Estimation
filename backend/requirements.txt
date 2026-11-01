@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+qrcode
+pillow
+numpy
+opencv-python-headless
+pytest
+google-genai
+python-dotenv
+pandas
+open3d

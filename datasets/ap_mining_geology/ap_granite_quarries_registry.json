@@ -1,0 +1,106 @@
+{
+  "state": "Andhra Pradesh",
+  "department": "Department of Mines and Geology (DMGO)",
+  "statutory_acts": [
+    "Mines and Minerals (Development and Regulation) Act, 1957",
+    "Andhra Pradesh Minor Mineral Concession Rules (APMMC Rules), 1966",
+    "AP Minor Mineral Policy 2025"
+  ],
+  "major_granite_clusters": [
+    {
+      "district": "Prakasam",
+      "cluster_name": "Chimakurthy Black Galaxy Belt",
+      "variety": "Black Galaxy Granite (Gabbro with bronze bronzite specks)",
+      "key_quarries": [
+        "R.L. Puram",
+        "Ramathirtham",
+        "Mylavaram",
+        "Budawada"
+      ],
+      "gps_center": "15.5833, 79.8667",
+      "seigniorage_rate_gangsaw_per_m3": 3960,
+      "seigniorage_rate_below_gangsaw_per_m3": 2640
+    },
+    {
+      "district": "Palnadu / Guntur",
+      "cluster_name": "Ballikurava & Martur Grey Belt",
+      "variety": "Steel Grey / Silver Waves Granite",
+      "key_quarries": [
+        "Ballikurava Hill Range",
+        "Martur",
+        "Chilakaluripet"
+      ],
+      "gps_center": "15.9833, 79.9167",
+      "seigniorage_rate_gangsaw_per_m3": 2640,
+      "seigniorage_rate_below_gangsaw_per_m3": 1760
+    },
+    {
+      "district": "Chittoor & Kuppam",
+      "cluster_name": "Kuppam Multi & Green Belt",
+      "variety": "Kuppam Green / Srikakulam Blue / Palamner White",
+      "key_quarries": [
+        "Kuppam Range",
+        "Palamaner",
+        "Gudupalle",
+        "Santhipuram"
+      ],
+      "gps_center": "12.7500, 78.3667",
+      "seigniorage_rate_gangsaw_per_m3": 2640,
+      "seigniorage_rate_below_gangsaw_per_m3": 1760
+    },
+    {
+      "district": "Srikakulam",
+      "cluster_name": "Tekkali Blue Granite Belt",
+      "variety": "Srikakulam Blue / Himalayan Blue",
+      "key_quarries": [
+        "Tekkali",
+        "Kotabommali",
+        "Narasannapeta"
+      ],
+      "gps_center": "18.6167, 84.2333",
+      "seigniorage_rate_gangsaw_per_m3": 2640,
+      "seigniorage_rate_below_gangsaw_per_m3": 1760
+    },
+    {
+      "district": "Annamayya & YSR Kadapa",
+      "cluster_name": "Rayachoti & Kadapa Black/Colour Range",
+      "variety": "Absolute Black & Kadapa Grey",
+      "key_quarries": [
+        "Rayachoti",
+        "Lakkireddypalle",
+        "Vempalli"
+      ],
+      "gps_center": "14.0500, 78.7500",
+      "seigniorage_rate_gangsaw_per_m3": 3300,
+      "seigniorage_rate_below_gangsaw_per_m3": 2200
+    }
+  ],
+  "measurement_protocol": {
+    "title": "DMGO 4-Reading Average Dimension Protocol",
+    "description": "Standard methodology for computing gross block volume and seigniorage assessable volume.",
+    "length_readings": [
+      "L1 (Top Left Edge)",
+      "L2 (Bottom Left Edge)",
+      "L3 (Top Right Edge)",
+      "L4 (Bottom Right Edge)"
+    ],
+    "breadth_readings": [
+      "B1 (Front Left Edge)",
+      "B2 (Front Right Edge)",
+      "B3 (Rear Left Edge)",
+      "B4 (Rear Right Edge)"
+    ],
+    "height_readings": [
+      "H1 (Front Left Column)",
+      "H2 (Front Right Column)",
+      "H3 (Rear Left Column)",
+      "H4 (Rear Right Column)"
+    ],
+    "formula": "Gross Volume (m3) = (Avg_L * Avg_B * Avg_H) / 1,000,000",
+    "gangsaw_classification": {
+      "super_gangsaw": "L >= 340cm AND B >= 180cm",
+      "above_gangsaw": "L >= 270cm AND B >= 150cm",
+      "below_gangsaw": "L < 270cm OR B < 150cm"
+    }
+  }
+}

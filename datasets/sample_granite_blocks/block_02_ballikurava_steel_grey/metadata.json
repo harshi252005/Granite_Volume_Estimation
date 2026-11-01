@@ -1,0 +1,16 @@
+{
+  "block_id": "block_02_ballikurava_steel_grey",
+  "variety": "Steel Grey Granite (Ballikurava, Palnadu)",
+  "nominal_dimensions_cm": {
+    "L": 310.0,
+    "B": 175.5,
+    "H": 150.0
+  },
+  "photos": [
+    "front.jpg",
+    "left.jpg",
+    "right.jpg",
+    "rear.jpg",
+    "top.jpg"
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "_meta": {
+    "created": "2026-08-18T21:01:42.198723",
+    "source": "Real AP quarry photos from DMGO officers (Aug 2026)",
+    "location": "Andhra Pradesh granite quarry belt \u2014 Chimakurthy / Prakasam district",
+    "notes": [
+      "Photos taken at actual quarry site and check measurement session",
+      "21 images total: undressed blocks, dressed blocks, check measurement form",
+      "Ground truth measurements extracted from check form \u2192 datasets/ground_truth_ap_dmg.json"
+    ]
+  },
+  "photos": [
+    {
+      "id": 1,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.33 PM (1).jpeg",
+      "new_filename": "ap_quarry_undressed_01.jpg",
+      "type": "undressed_block",
+      "directory": "undressed",
+      "path": "datasets/quarry_real/undressed/ap_quarry_undressed_01.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": false,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 2,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.33 PM.jpeg",
+      "new_filename": "ap_quarry_undressed_02.jpg",
+      "type": "undressed_block",
+      "directory": "undressed",
+      "path": "datasets/quarry_real/undressed/ap_quarry_undressed_02.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": false,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 3,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.34 PM.jpeg",
+      "new_filename": "ap_quarry_undressed_03.jpg",
+      "type": "undressed_block",
+      "directory": "undressed",
+      "path": "datasets/quarry_real/undressed/ap_quarry_undressed_03.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": false,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 4,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.36 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_04.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_04.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 5,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.37 PM (1).jpeg",
+      "new_filename": "ap_quarry_dressed_05.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_05.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 6,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.37 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_06.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_06.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 7,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.38 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_07.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_07.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 8,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.39 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_08.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_08.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 9,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.40 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_09.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_09.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 10,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.41 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_10.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_10.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 11,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.42 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_11.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_11.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 12,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.43 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_12.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_12.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 13,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.44 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_13.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_13.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 14,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.45 PM (1).jpeg",
+      "new_filename": "ap_quarry_dressed_14.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_14.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 15,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.45 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_15.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_15.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 16,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.47 PM (1).jpeg",
+      "new_filename": "ap_quarry_dressed_16.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_16.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 17,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.47 PM (2).jpeg",
+      "new_filename": "ap_quarry_dressed_17.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_17.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 18,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.47 PM.jpeg",
+      "new_filename": "ap_quarry_dressed_18.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_18.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 19,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.48 PM (1).jpeg",
+      "new_filename": "ap_quarry_dressed_19.jpg",
+      "type": "dressed_block",
+      "directory": "dressed",
+      "path": "datasets/quarry_real/dressed/ap_quarry_dressed_19.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": true,
+        "opencv_calibration": true,
+        "ground_truth_extraction": false
+      }
+    },
+    {
+      "id": 20,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.48 PM.jpeg",
+      "new_filename": "ap_dmg_check_form_20.jpg",
+      "type": "check_measurement_form",
+      "directory": "check_forms",
+      "path": "datasets/quarry_real/check_forms/ap_dmg_check_form_20.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": false,
+        "opencv_calibration": false,
+        "ground_truth_extraction": true
+      }
+    },
+    {
+      "id": 21,
+      "original_filename": "WhatsApp Image 2026-08-17 at 10.00.49 PM.jpeg",
+      "new_filename": "ap_dmg_check_form_21.jpg",
+      "type": "check_measurement_form",
+      "directory": "check_forms",
+      "path": "datasets/quarry_real/check_forms/ap_dmg_check_form_21.jpg",
+      "quarry": "AP Chimakurthy / Prakasam belt",
+      "date": "2026-08-17",
+      "usable_for": {
+        "gemini_few_shot": false,
+        "opencv_calibration": false,
+        "ground_truth_extraction": true
+      }
+    }
+  ]
+}

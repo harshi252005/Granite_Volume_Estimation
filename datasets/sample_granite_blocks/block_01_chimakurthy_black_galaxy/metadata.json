@@ -1,0 +1,16 @@
+{
+  "block_id": "block_01_chimakurthy_black_galaxy",
+  "variety": "Black Galaxy Granite (Chimukurthy, Prakasam)",
+  "nominal_dimensions_cm": {
+    "L": 290.5,
+    "B": 165.0,
+    "H": 142.0
+  },
+  "photos": [
+    "front.jpg",
+    "left.jpg",
+    "right.jpg",
+    "rear.jpg",
+    "top.jpg"
+  ]
+}

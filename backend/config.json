@@ -1,0 +1,40 @@
+{
+    "ai_confidence_threshold": 0.7,
+    "density_factor": 2.62,
+    "leakage_threshold_percent": 8.0,
+    "volume_threshold_low": 5.8,
+    "volume_threshold_high": 7.0,
+    "aruco_marker_size_dressed_mm": 200.0,
+    "aruco_marker_size_undressed_mm": 100.0,
+    "aruco_dict": "DICT_4X4_50",
+    "fallback_frame_width_mm": 3400.0,
+    "perspective_ratio_length": 1.7778,
+    "perspective_ratio_height": 0.75,
+    "gangsaw_threshold_length": 270.0,
+    "gangsaw_threshold_breadth": 150.0,
+    "super_gangsaw_threshold_length": 340.0,
+    "super_gangsaw_threshold_breadth": 180.0,
+    "seigniorage_rates": {
+        "super_gangsaw": {
+            "Black Galaxy Granite": 2200,
+            "Black Granite (Other than Black Galaxy)": 1820,
+            "Premium Colour Granite": 1990,
+            "Standard Colour Granite": 1630,
+            "Other Colour Granite": 1130
+        },
+        "above_gangsaw": {
+            "Black Galaxy Granite": 1830,
+            "Black Granite (Other than Black Galaxy)": 1520,
+            "Premium Colour Granite": 1660,
+            "Standard Colour Granite": 1360,
+            "Other Colour Granite": 940
+        },
+        "below_gangsaw": {
+            "Black Galaxy Granite": 1530,
+            "Black Granite (Other than Black Galaxy)": 1300,
+            "Premium Colour Granite": 1410,
+            "Standard Colour Granite": 1200,
+            "Other Colour Granite": 720
+        }
+    }
+}

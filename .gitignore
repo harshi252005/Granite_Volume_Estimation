@@ -1,0 +1,83 @@
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+*.env
+backend/.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Python Environments & Caches
+# ==========================================
+venv/
+**/venv/
+test_env/
+**/test_env/
+env/
+**/env/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ==========================================
+# Node / Frontend Build
+# ==========================================
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/dist/
+**/dist/
+.vite/
+**/.vite/
+
+# ==========================================
+# Android & Capacitor Build Artifacts
+# ==========================================
+**/android/app/build/
+**/android/build/
+**/android/.gradle/
+**/android/capacitor-cordova-android-plugins/build/
+.gradle/
+local.properties
+
+# ==========================================
+# Heavy External Binaries (>100MB, rejected by GitHub)
+# Use .\install_photogrammetry.ps1 to download COLMAP and OpenMVS
+# ==========================================
+backend_tools/
+**/backend_tools/
+
+# ==========================================
+# Uploads, Runtime Caches & Local Databases
+# ==========================================
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+**/test_walkaround.db
+**/cv2_*.txt
+InterfaceCOLMAP-*.log
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

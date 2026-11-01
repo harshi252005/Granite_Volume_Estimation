@@ -1,0 +1,16 @@
+{
+  "block_id": "block_03_kuppam_green_granite",
+  "variety": "Kuppam Green Granite (Chittoor / Kuppam)",
+  "nominal_dimensions_cm": {
+    "L": 275.0,
+    "B": 145.0,
+    "H": 135.0
+  },
+  "photos": [
+    "front.jpg",
+    "left.jpg",
+    "right.jpg",
+    "rear.jpg",
+    "top.jpg"
+  ]
+}

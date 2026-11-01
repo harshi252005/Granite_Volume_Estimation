@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "source": "AP DMG Check Measurements Form — physical paper, photographed Aug 2026",
+    "location": "Andhra Pradesh granite quarry (Chimakurthy / Prakasam district belt)",
+    "purpose": "Ground truth calibration dataset for Smart Granite AI model",
+    "form_columns": ["Sl.No", "Date", "ADM_Number", "L1", "L2", "L3", "L4", "L_avg", "B1", "B2", "B3", "B4", "B_avg", "H1", "H2", "H3", "H4", "H_avg", "Volume_cm3"],
+    "notes": [
+      "All measurements in cm",
+      "Volume in cm³ (L_avg × B_avg × H_avg)",
+      "AP DMG Gangsaw threshold: L > 270 cm AND B > 150 cm",
+      "AP DMG Super Gangsaw: L > 340 cm AND B > 180 cm",
+      "L4 = 285 in this block — one edge significantly longer (tapered/irregular block)",
+      "This data was extracted by OCR from the check measurements photo"
+    ]
+  },
+  "ground_truth_blocks": [
+    {
+      "block_ref": "AP-DMG-FORM-ROW1",
+      "adm_number": null,
+      "date_of_production": null,
+      "length_readings_cm": [200, 200, 200, 285],
+      "breadth_readings_cm": [120, 111, 125, 125],
+      "height_readings_cm": [125, 165, 160, 125],
+      "length_avg_cm": 221.25,
+      "breadth_avg_cm": 120.25,
+      "height_avg_cm": 143.75,
+      "volume_cm3": 3825591.797,
+      "volume_m3": 3.826,
+      "gangsaw_class": "below_gangsaw",
+      "notes": "L4=285 is an outlier — one corner of block more protruding. Avg L=221.25 falls below Gangsaw threshold of 270."
+    }
+  ],
+  "quarry_photo_observations": {
+    "block_type_in_photos": {
+      "photo_1_irregular": "Undressed block — irregular shape, painted '4/557' marker, sitting in sandy ground",
+      "photo_2_rectangular": "Dressed block — more regular rectangular shape, beige/sandy granite, front face visible",
+      "photo_3_same_block_wider": "Same dressed block as photo_2 from wider angle — shows quarry environment context"
+    },
+    "scale_references_observed": {
+      "person_in_background": "~170 cm tall (visible in photo_1)",
+      "block_marker_paint": "Block serial numbers painted in blue paint — typical AP quarry practice",
+      "ground_context": "Sandy quarry earth, loose rocks, typical Prakasam district environment"
+    },
+    "granite_visual_characteristics": {
+      "color": "Light beige / sandy grey (Photo 2 & 3) — likely Standard Colour Granite or Any Other Colour",
+      "texture": "Coarse grain with visible crystal structure",
+      "surface": "Rough cut faces, some mud/dust coating"
+    },
+    "estimated_dimensions_visual": {
+      "dressed_block_photo2": {
+        "estimated_length": "230-270 cm",
+        "estimated_breadth": "140-170 cm",
+        "estimated_height": "120-150 cm",
+        "confidence": "moderate (no scale reference next to block)"
+      }
+    }
+  },
+  "calibration_ranges": {
+    "description": "Updated from check measurements form — use these ranges for Gemini prompt calibration",
+    "length_min_cm": 180,
+    "length_max_cm": 320,
+    "breadth_min_cm": 100,
+    "breadth_max_cm": 180,
+    "height_min_cm": 90,
+    "height_max_cm": 170,
+    "gangsaw_length_threshold_cm": 270,
+    "gangsaw_breadth_threshold_cm": 150,
+    "super_gangsaw_length_threshold_cm": 340,
+    "super_gangsaw_breadth_threshold_cm": 180
+  }
+}
